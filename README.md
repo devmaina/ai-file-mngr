@@ -33,3 +33,42 @@ AutoReName-Reorganise is an intelligent file management tool designed to **analy
 2. Ensure `pip` is installed:
    ```bash
    python -m ensurepip --upgrade
+
+
+
+
+   Dependencies
+Install required libraries:
+
+bash
+Copy code
+pip install torch torchvision pillow watchdog
+Clone and Run
+Clone this repository:
+bash
+Copy code
+git clone https://github.com/your-username/autorename-reorganise.git
+cd autorename-reorganise
+Start the application:
+bash
+Copy code
+python image_renamer.py
+📖 Usage
+Configure the monitoring folder (default: Downloads) in the script or UI.
+Drag and drop files into the folder.
+Let the app analyze and rename files:
+IMG_1234.jpg ➡️ Car_Subaru_Model.jpg
+Files will be moved into organized folders automatically.
+👩‍💻 Contributing
+We welcome contributions! Feel free to open an issue or submit a pull request.
+
+Fork the repo.
+Make your changes.
+Submit a pull request.
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+🌐 Stay Connected
+Official Website
+GitHub Repo
+Contact: support@autorename-reorganise.app
